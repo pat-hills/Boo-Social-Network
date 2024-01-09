@@ -13,7 +13,7 @@ describe('User Profile Integration', function () {
   it('Should create a new user profile and then fetch it', function (done) {
     chai.request(app)
       .post('/api/create-profile')
-      .send({ name: 'John Doe' })
+      .send({ name: 'Ella Ampong' })
       .end((err, res) => {
         if (err) {
           done(err);

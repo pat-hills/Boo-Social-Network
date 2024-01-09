@@ -13,7 +13,7 @@ Installation:
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/pat-hills/server-boo-coding-assignment.git
 
 Navigate to the project directory:
 

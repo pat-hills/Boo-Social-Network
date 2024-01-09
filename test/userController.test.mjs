@@ -12,10 +12,10 @@ chai.use(chaiHttp);
 //   beforeEach(() => { });
 
 //   it('should create a new user', async () => {  
-//     const response = await chai.request(app).post('/api/create-user').send({ name: 'John Doe' });
+//     const response = await chai.request(app).post('/api/create-user').send({ name: 'Ella Ampong' });
 //     expect(response).to.have.status(201);
 //     expect(response.body).to.be.an('object');
-//     expect(response.body).to.have.property('name', 'John Doe');
+//     expect(response.body).to.have.property('name', 'Ella Ampong');
 //   });
 
 //   // Add more unit test cases here, focusing on individual controller functions
@@ -26,10 +26,10 @@ describe('User Controller (Unit Tests)', () => {
 
   it('should create a new user and an associated comment', async () => {
     // Create a new user
-    const userResponse = await chai.request(app).post('/api/create-user').send({ name: 'John Doe' });
+    const userResponse = await chai.request(app).post('/api/create-user').send({ name: 'Ella Ampong' });
     expect(userResponse).to.have.status(201);
     expect(userResponse.body).to.be.an('object');
-    expect(userResponse.body).to.have.property('name', 'John Doe');
+    expect(userResponse.body).to.have.property('name', 'Ella Ampong');
 
     // Store the user ID for later use
     authorId = userResponse.body._id;
