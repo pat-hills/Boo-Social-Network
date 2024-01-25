@@ -1,6 +1,6 @@
 # Project Name
 
-Exciting project to try hands-on Node js and MongoDB memory server
+Boo-Social-Network
 
 ## Getting Started
 
