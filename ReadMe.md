@@ -1,7 +1,6 @@
 # Project Name
 
-Boo-coding-assigment, which is the second screening process and 
-needs to be submitted 48 hours of receiving.
+Exciting project to try hands-on Node js and MongoDB memory server
 
 ## Getting Started
 
@@ -9,11 +8,12 @@ Prerequisites:
 
 Node.js version v18.17.1 or higher
 npm (for package management)
+MongoDB
 Installation:
 
 Clone the repository:
 
-git clone https://github.com/pat-hills/server-boo-coding-assignment.git
+Clone from repo
 
 Navigate to the project directory:
 
